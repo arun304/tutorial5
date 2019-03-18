@@ -1,0 +1,22 @@
+<div ng-controller="postCtrl" >
+         
+    <table >
+      <tr>
+        <th>userId</th>
+        <th>id</th>
+        <th>title</th>
+        <th>body</th>
+      </tr>
+      <tr ng-repeat="data in postData">
+       <td>{{data.userId}}</td>
+        <td>{{data.id}}</td>
+        <td>{{data.title}}</td>
+        <td>{{data.body}}</td>
+  
+        
+      </tr>
+    </table>
+  
+  
+  </div>
+  

@@ -1,0 +1,21 @@
+<div ng-app="myApp" ng-controller="photoCtrl" >       
+    <table >
+      <tr>
+        <th>albumId</th>
+        <th>id</th>
+        <th>title</th>
+        <th>url</th>
+        <th>thumbnailUrl</th>
+      </tr>
+      <tr ng-repeat="data in myData.data">
+        <td>{{data.albumId}}</td>
+        <td>{{data.id}}</td>
+        <td>{{data.title}}</td>
+        <td><img src={{data.url}} /></td>
+        <td><img src={{data.thumbnailUrl}} /></td>
+        
+      </tr>
+    </table>
+
+
+</div>
