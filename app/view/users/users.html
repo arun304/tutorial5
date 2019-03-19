@@ -1,72 +1,31 @@
-<div ng-controller="myCtrl" >
-         
-    <table >
-      <tr>
-        <th>id</th>
-        <th>name</th>
-        <th>username</th>
-        <th>email</th>
-        <th>address</th>
-        <tr>
-           <th> street</th>
-           <th> suite</th>
-           <th> city</th>
-           <th> zipcode</th>
-           </tr>
-           <th> geo</th>
-             <tr>
-               <th>lat</th>  
-               <th>ing</th>  
-             </tr>
-        <tr>
-            <th>phone</th> 
-            <th>website</th>   
-            <th>company</th> 
-              <tr> 
-                  <th>name</th>
-                  <th>catchPhrase</th>  
-                  <th>bs</th>  
-              </tr> 
-                
-        </tr>
+<section ng-controller="usersCtrl" class='userCtrl'>
+    <div class='row' ng-repeat="data in usersData">
+        <div class='col-sm-1 col-lg-1 col-md-1'>
+            <span>ID : {{data.id}}</span>
+        </div>
+        <div class='col-sm-1 col-lg-1 col-md-1'>
+            <span>Name : {{data.name}}</span>
+        </div>
+        <div class='col-sm-1 col-lg-1 col-md-1'>
+            <span>Username : {{data.username}}</span>
+        </div>
+        <div class='col-sm-1 col-lg-1 col-md-1'>
+            <span>Email : {{data.email}}</span>
+        </div>
+        <div class='col-sm-8 col-lg-8 col-md-8'>
+            <div class='col-sm-3 col-lg-3 col-md-3'>
+                <span>Street : {{data.address.street}}</span>
+            </div>
+            <div class='col-sm-3 col-lg-3 col-md-3'>
+                <span>Suite : {{data.address.suite}}</span>
+            </div>
+            <div class='col-sm-3 col-lg-3 col-md-3'>
+                <span>City : {{data.address.city}}</span>
+            </div>
+            <div class='col-sm-3 col-lg-3 col-md-3'>
+                <span>Zipcode : {{data.address.zipcode}}</span>
+            </div>
+        </div>
 
-      </tr>
-      <div>
-      <tr ng-repeat="data in usersData">
-        <td>{{data.id}}</td>
-        <td>{{data.name}}</td>
-        <td>{{data.email}}</td>
-        <td>{{data.username}}</td>
-        <td>{{data.address}}</td>
-        <td>{{data.address.street}}</td>
-         <td>{{data.address.street}}</td>
-         <td>{{data.address.suite}}</td>
-         <td>{{data.address.zipcode}}</td>
-
-           <td>{{data.address.geo}}</td>
-           </tr>
-             <tr>
-               <th>{{data.address.geo.lat}}</th>
-               <th>{{data.address.geo.lan}}</th>
-             </tr>
-             <th>{{data.phone}}</th> 
-            <th>{{data.website}}</th>   
-            <th>{{data.company}}</th>
-                <tr>
-                    <th>{{data.name}}</th>
-                    <th>{{data.catchPhrase}}</th>  
-                    <th>{{data.bs}}</th>  
-                </tr> 
-
-
-                
-          </div>
-        
-        
-        
-        
-      </tr>
-    </table>
-
-
-</div>
+    </div>
+</section>

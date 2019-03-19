@@ -28,3 +28,15 @@ td {
     min-height: 300px !important;
     margin: 10px 0px;
 }
+
+.userCtrl .col-sm-1,
+.userCtrl .col-sm-4,
+.userCtrl .col-sm-8 {
+    background: #eee;
+    min-height: 100px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
