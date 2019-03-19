@@ -1,0 +1,12 @@
+ref link
+https://www.mspnarita.com/en-us/restaurants/
+
+Create a menu
+Rooms Restaurants Venues Pool & Spa Access
+
+on click of restaurants
+  load the restaurants page
+  attaching the snapshot as well
+
+  Images and logos are uploaded in image folder
+  Please check.

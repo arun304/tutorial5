@@ -1,6 +1,6 @@
-app.controller('usersCtrl', function ($scope, $http) {
+app.controller('usersCtrl', function($scope, $http) {
     $http.get("json/users.json")
-        .then(function (response) {
-        $scope.usersData = response.data;
+        .then(function(response) {
+            $scope.usersData = response.data;
         });
 });
