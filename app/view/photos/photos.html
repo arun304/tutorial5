@@ -1,8 +1,14 @@
 <section ng-controller="photoCtrl">
     <div class='row'>
-        <div class='col-sm-4' ng-repeat="data in myData.data">
-            <div><img src={{data.thumbnailUrl}} /></div>
-            <div class='title'>{{data.title}}</div>
+        <div class='col-sm-4 product-info' ng-repeat="data in myData.data">
+            <div class='deals'>
+                <div class='image'>
+                    <img src={{data.thumbnailUrl}} />
+                </div>
+                <div class='title'>
+                    {{data.title}}
+                </div>
+            </div>
         </div>
     </div>
 </section>

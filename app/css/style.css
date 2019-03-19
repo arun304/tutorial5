@@ -1,5 +1,30 @@
-table, th , td {
+table,
+th,
+td {
     border: 1px solid red;
     border-collapse: collapse;
     padding: 5px;
-  }
+}
+
+.title {
+    font-size: 18px;
+    text-align: center;
+    max-width: 150px;
+    margin: 0 auto;
+    min-height: 200px;
+}
+
+.image {
+    text-align: center;
+}
+
+.deals {
+    background-color: #eee;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.product-info {
+    min-height: 300px !important;
+    margin: 10px 0px;
+}
