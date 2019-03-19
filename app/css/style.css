@@ -28,3 +28,11 @@ td {
     min-height: 300px !important;
     margin: 10px 0px;
 }
+li{
+    display:inline;
+
+}
+li a{
+    color:green;
+    
+}

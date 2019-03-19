@@ -1,0 +1,14 @@
+TO Go to the project folder
+cd C:\Pooja\tutorial5
+
+To start the server 
+npm start
+
+To stop the server before commit
+press ctrl+c
+
+git command to commit your changes
+git add .
+git commit -m "First commit"
+git push
+username - a.arun304@gmail.com
