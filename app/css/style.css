@@ -28,15 +28,14 @@ td {
     min-height: 300px !important;
     margin: 10px 0px;
 }
-<<<<<<< HEAD
-li{
-    display:inline;
 
+li {
+    display: inline;
 }
-li a{
-    color:green;
-    
-=======
+
+li a {
+    color: green;
+}
 
 .userCtrl .col-sm-1,
 .userCtrl .col-sm-4,
@@ -48,5 +47,4 @@ li a{
     justify-content: center;
     align-items: center;
     margin: 10px 0;
->>>>>>> d1823708fa80625b6d0e1d8fad24a525f71eebe6
 }
