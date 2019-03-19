@@ -1,0 +1,21 @@
+Programming challenges
+
+1. Check whether the no is a palindrome or not,
+2. Reverse a string,
+3. Write a code to receive data from ui and send to a server using angular js
+4. 1+"2"+"2" = ?
+5. Move all zeroes to end of array
+6. Create a directive in angular
+
+
+
+
+Interview questions
+
+1. what is javascript closure and prototype?  
+2. what is promise?
+3. what is the difference between null, undefined, not defined?
+4. https://www.w3schools.com/js/js_object_definition.asp
+5. https://www.w3schools.com/js/js_object_properties.asp
+6. https://www.w3schools.com/js/js_object_properties.asp
+7. https://www.w3schools.com/js/js_object_methods.asp
